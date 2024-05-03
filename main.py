@@ -9,15 +9,11 @@ while True:
     print('Number', 'Squared', 'Cubed')
     print('======', '======', '======')
 
-    a = 0
-    b = 0
-    c = 0
-
     for a in range(0, x, 1) :
         a += 1
         b = a ** 2
         c = a ** 3
-        print(a, b, c)
+        print(a,'\t\t', b, '\t\t', c)
 
     decision = input('Continue? y/n >> ')
     decision = str(decision)
