@@ -20,3 +20,12 @@ while True:
 
     if decision != 'y':
         break
+
+print('\t','1','\t', '2', '\t', '3', '\t', '4')
+print('\t','=','\t', '=', '\t', '=', '\t', '=')
+
+for column in range(1, x + 1):
+    print(column, "|", end="\t")
+    for row in range(1, x + 1):
+        print(column * row, end="\t")
+    print()
